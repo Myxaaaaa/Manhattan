@@ -1,0 +1,606 @@
+\* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #210E09;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+@media (max-width: 500px) {
+    .menu {
+        display: none;
+        gap: 10px;
+    }
+}
+
+.menu a:hover {
+    color: #D5621D;
+}
+
+.security {
+    width: 188px;
+    height: 51px;
+    border-radius: 6px;
+    border: 2px solid #D5621D;
+    text-align: center;
+}
+
+.banner-img {
+    background-image: url('../media/headerImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 856px;
+    height: 540px;
+}
+
+.banner {
+    margin-top: 53px;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.banner-option a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    width: 250px;
+    height: 50px;
+    background: rgba(213, 112, 52, 0.05);
+    text-align: center;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-option {
+    width: 416px;
+    background: rgba(213, 98, 29, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+.banner-link a {
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-link {
+    display: flex;
+    gap: 10px;
+}
+
+.soon-films {
+    display: flex;
+    flex-wrap: wrap;
+    width: 416px;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 26px;
+}
+
+.banner-img h2 {
+    background-color: #fff;
+    width: 154px;
+    height: 44px;
+    border-radius: 5px;
+    position: absolute;
+    top: 301px;
+    left: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.banner-img h1 {
+    color: #ffffff;
+    width: 540px;
+    position: absolute;
+    top: 375px;
+    left: 30px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 800;
+}
+
+.banner-link a:hover {
+    background-color: rgba(215, 105, 38, 0.16);
+}
+
+.soon-films img {
+    transition: .5s;
+}
+
+.soon-films img:hover {
+    transform: scale(1.1);
+}
+
+.food {
+    position: absolute;
+    width: 1200;
+    height: 983px;
+    left: 312px;
+    right: 312px;
+    top: 796px;
+    bottom: 2971px;
+    text-align: center;
+}
+
+.food h2 {
+    width: 244px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.security:active {
+    background-color: rgba(213, 98, 29, 0.68);
+    color: green;
+}
+
+.kitchen {
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.manhattan {
+    display: flex;
+    justify-content: center;
+}
+
+.manhattan-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 250px;
+}
+
+.manhattan-text p {
+    color: rgb(33, 14, 9);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.kitchen-text {
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card-info h3 {
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.card-info span {
+    color: rgb(213, 98, 29);
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-info p {
+    color: rgb(255, 255, 255);
+    font-family: Stolzl, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 351px;
+}
+
+.kitchen-menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 104px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.kitchen-card {
+    display: flex;
+    gap: 25px;
+}
+
+.button-text {
+    display: flex;
+    gap: 130px;
+}
+
+.button-text a {
+    box-sizing: border-box;
+    border: 2px solid rgb(213, 98, 29);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 7px 20px;
+    background-color: rgba(213, 99, 29, 0.046);
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.all-menu {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-menu button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: rgba(213, 99, 29, 0.037);
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #D5621D;
+    transition: .3s;
+}
+
+
+.button-text a:hover,
+.all-menu button:hover {
+    background-color: #D5621D;
+    transform: scale(1.1);
+}
+
+.button-text a:active,
+.all-menu button:active {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 120px;
+}
+.footer-info-adress {
+    color: #fff;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    gap: 24px;
+    
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 25px;
+    height: 650px;
+    box-sizing: border-box;
+    border: 2px solid rgb(213, 98, 29);
+    border-radius: 5px;
+    background: rgba(213, 98, 29, 0.1);
+}
+
+.footer-info h2 {
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer-info p {
+    width: 316px;
+    color: rgb(255, 255, 255);
+    font-family: Stolzl, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.line {
+    width: 1500px;
+    margin: 20px auto;
+    background-color: #333333c6;
+    height: 2px;
+}
+
+.copyright {
+    margin-top: 20px;
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Stolzlm, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .copyright img {
+        margin: -5px;
+        padding: 6px;
+        transition: .3s;
+    }
+
+    .copyright img:hover {
+        transform: scale(1.2);
+    }
+
+.banknot {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tourists h3,
+.events h3 {
+    color: rgb(255, 255, 255);
+    font-family: Stolzl, sans-serif;
+    font-size: 14px;
+    width: 376px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;;
+}
+
+.events button,
+.tourists button {
+    margin: 35px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    background: rgba(213, 99, 29, 0.037);
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #D5621D;
+    transition: .3s;
+}
+
+.events button:hover,
+.tourists button:hover {
+    background-color: #D5621D;
+}
+
+.events button:active,
+.tourists button:active {
+    transform: scale(1.1);
+}
+
+.techRider {
+    margin: 150px 40px;
+}
+
+.loudspaker {
+    display: flex;
+    gap: 10px;
+    width: 526px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background: rgb(213, 98, 29);
+    align-self: stretch;
+    position: relative;
+}
+.loudspaker img {
+    position: absolute;
+    top: 30px;
+    left: 450px;
+}
+
+
+.loudspaker ul {
+    color: rgb(255, 255, 255);
+    font-family: Stolzl,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.techrider-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 15px;
+    padding-left: 100px;
+    align-items: flex-start;
+}
+
+.techrider-block h2 {
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.loudspaker-option {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loudspaker-option-menu {
+    background: rgba(213, 99, 29, 0.078);
+    text-transform: uppercase;
+    width: 526px;
+    height: 67px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+
+
+.loudspaker-option-menu img {
+    position: absolute;
+    left: 565px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.loudspaker-option-menu img:hover {
+    transform: scale(1.2);
+}
+
+.sound_engineers {
+    position: absolute;
+    left: 890px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.sound_engineers h2 {
+    width: 415px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.engineers_info {
+    margin-top: 50px;
+}
+
+.engineers_info p {
+    width: 120px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.social_icon {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45px;
+    gap: 25px;
+}
+
+.social_icon a {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #D5621D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.social_icon a:hover {
+    filter: brightness(60%);
+    box-shadow: 0 0 10px white;
+    width: 100%;
+}

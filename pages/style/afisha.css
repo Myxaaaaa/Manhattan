@@ -1,0 +1,91 @@
+.manhattan {
+    margin-top: 55px;
+    margin-left: 70px;
+}
+
+.kitchen-text {
+    margin-left: 70px;
+}
+
+.afisha {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 70px;
+}
+
+.afisha_films {
+    position: relative;
+    display: inline-block;
+}
+
+.afisha_films img {
+    transition: opacity 0.5s;
+}
+
+.afisha_films:hover img {
+    opacity: 0.5;
+    filter: brightness(30%);
+}
+
+.date-films, .rock, .buy {
+    position: absolute;
+    top: calc(50% + 20px);
+    left: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.afisha_films:hover .date-films,
+.afisha_films:hover .rock,
+.afisha_films:hover .buy {
+    opacity: 1;
+}
+
+.date-films {
+    background-color: rgb(213,98,29);
+    width: 174px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rock {
+    margin-top: 30px;
+    width: 236px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.buy a {
+    position: absolute;
+    width: 84px;
+    height: 38px;
+    top: 15px;
+    right: 10px;
+    border: 3px solid rgb(213,98,29);
+    border-radius: 5px;
+    background-color: rgba(213, 99, 29, 0);
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,71 @@
+.manhattan {
+    margin-top: 55px;
+}
+
+.corporative h2 {
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Gotham Pro, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.corporative-block {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    
+}
+.corporative_furshet {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.corporative_furshet img {
+    margin-left: 75px;
+}
+
+.corporative_furshet p {
+    width: 260px;
+    color: rgb(255, 255, 255);
+    font-family: Stolzl;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+
+.why_us_info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.why_us_info li {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 10px;
+    list-style-type: none;
+    margin-left: 270px;
+    text-indent: 150px;
+    text-align: left;
+}
+
+.why_us_info li::before {
+    content: ''; 
+    display: inline-block;
+    width: 10px;
+    height: 10px; 
+    background-color: rgb(213, 98, 29); 
+    margin-right: 10px; 
+    margin-top: 40px;
+}
+

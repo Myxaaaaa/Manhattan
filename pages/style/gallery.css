@@ -1,0 +1,57 @@
+.manhattan {
+    margin-top: 80px;
+}
+
+.gallery {
+    margin-top: 100px;
+}
+
+.gallery_block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.image_container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.image_container img {
+    transition: .3s;
+}
+
+.zoom_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image_container:hover .zoom_image {
+    opacity: 0.8; 
+}
+
+.image_container img:hover {
+    filter: brightness(20%);
+}
+
+.zoom_image:hover {
+    cursor: pointer;
+}
+
+.plus_image {
+    display: none;
+    position: absolute;
+    top: 172px;
+    left: 176px;
+    transform: translate(-50%, -50%);
+}
+
+.image_container:hover .plus_image, .zoom_image {
+    display: block;
+}

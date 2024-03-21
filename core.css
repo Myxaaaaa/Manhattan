@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header img:hover {
+    filter: brightness(50%);
+}
+.menu li {
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: Gotham pro, sans-serif;
+    transition: .2s;
+}
+
+h1, h2, h3, p, a {
+    font-family: "Gotham pro", sans-serif;
+
+}
+
+.header img {
+    cursor: pointer;
+}
